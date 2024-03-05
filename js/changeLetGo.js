@@ -9,12 +9,12 @@ setInterval(() => {
   // opOne();
 
   ref.textContent = "ВІЇ";
-  letGo.style.backgroundImage = 'url("../img/beautiful-woman.jpg")';
+  // letGo.style.backgroundImage = 'url("../img/beautiful-woman.jpg")';
 }, 4000);
 
 setInterval(() => {
   ref.textContent = "БРОВІ";
-  letGo.style.backgroundImage = 'url("../img/eyebrows.jpg")';
+  // letGo.style.backgroundImage = 'url("../img/eyebrows.jpg")';
 }, 8000);
 
 // setInterval(() => {

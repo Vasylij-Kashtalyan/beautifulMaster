@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Майстер Краси</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/letgo.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <h1 class="logo">B E A U T U F U L</h1>
+          <ul class="navbar-list">
+            <li class="navbar-item">Головна</li>
+            <li class="navbar-item">Послуги</li>
+            <li class="navbar-item">Галерея</li>
+          </ul>
+
+          <button
+            class="menu-btn"
+            type="button"
+            data-menu-button
+            aria-expanded="false"
+            aria-controls="mob-menu"
+          >
+            <svg width="40" height="40">
+              <use
+                class="menu-btn__close"
+                href="./img/icons.svg.svg#menu-close"
+              ></use>
+              <use
+                class="menu-btn__menu"
+                href="./img/icons.svg.svg#icon-menu"
+              ></use>
+            </svg>
+          </button>
+
+          <ul class="social">
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20">
+                  <use href="./img/icons.svg.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20">
+                  <use href="./img/icons.svg.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20">
+                  <use href="./img/icons.svg.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="social-icon" width="20">
+                  <use href="./img/icons.svg.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="letgo">
+        <div class="container">
+          <h2 class="letgo-title">
+            ЗРОБИМО ТОБІ <span id="words" class="letgo-brows">БРОВІ</span>
+          </h2>
+        </div>
+      </section>
+    </main>
+    <script src="./js/changeLetGo.js"></script>
+    <script src="./js/mobil.js"></script>
+  </body>
+</html>

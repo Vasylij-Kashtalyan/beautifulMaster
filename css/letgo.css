@@ -1,0 +1,44 @@
+.letgo {
+  background-image: url("../img/beautiful-woman.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  box-shadow: 0px 4px 4px rgba(151, 127, 127, 0.25);
+  align-items: center;
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+  animation: mymove 5s infinite;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.letgo-title {
+  @media screen and (max-width: 986px) {
+    font-size: 50px;
+  }
+
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  font-family: Raleway;
+}
+
+.letgo-brows {
+  @media screen and (max-width: 986px) {
+    font-size: 50px;
+  }
+
+  color: #f0856b;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  transition: opacity 500ms ease 0s;
+}
+
+@keyframes mymove {
+  50% {
+    opacity: 0.8;
+  }
+}

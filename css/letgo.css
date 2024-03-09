@@ -1,5 +1,5 @@
 .letgo {
-  background-image: url("../img/beautiful-woman.jpg");
+  /* background-image: url("../img/beautiful-woman.jpg"); */
 
   background-repeat: no-repeat;
   background-position: center;
@@ -8,17 +8,22 @@
   box-shadow: 0px 4px 4px rgba(151, 127, 127, 0.25);
   align-items: center;
   margin: 0 auto;
-  height: 500px;
+  height: 600px;
   display: flex;
   animation: mymove 5s infinite;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes mymove {
+  50% {
+    opacity: 0.8;
+  }
 }
 
 .letgo-title {
   @media screen and (max-width: 986px) {
     font-size: 50px;
   }
-
   color: #fff;
   text-align: center;
   font-size: 100px;
@@ -28,17 +33,51 @@
 .letgo-brows {
   @media screen and (max-width: 986px) {
     font-size: 50px;
+    left: 40%;
   }
 
-  color: #f0856b;
+  color: #f18367;
   font-size: 100px;
   display: flex;
-  justify-content: center;
-  transition: opacity 500ms ease 0s;
+
+  position: absolute;
+  left: 44%;
+  overflow: hidden;
+  animation: animate 8s linear infinite;
+  opacity: 0;
 }
 
-@keyframes mymove {
-  50% {
-    opacity: 0.8;
+.letgo-eyelashes {
+  left: 46%;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
   }
+  2% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  18% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}
+
+.letgo-title span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.letgo-title span:nth-child(2) {
+  animation-delay: 4s;
 }

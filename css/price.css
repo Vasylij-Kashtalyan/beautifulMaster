@@ -1,0 +1,21 @@
+.price {
+  box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 40px 150px;
+}
+
+.price-dashed {
+  border: none;
+  height: 1px;
+  width: 65%;
+  margin: 13px 10px 0;
+  background: #bfbfbf;
+  background: repeating-linear-gradient(
+    90deg,
+    #000,
+    #000 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}

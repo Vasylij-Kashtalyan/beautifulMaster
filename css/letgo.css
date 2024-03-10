@@ -31,7 +31,7 @@
   }
 
   font-size: 100px;
-  color: #fff;
+  color: var(--color-wite);
   text-align: center;
   font-family: Raleway;
 }
@@ -58,7 +58,7 @@
   font-size: 100px;
   font-family: Raleway;
   position: absolute;
-  color: #f18367;
+  color: var(--color-primary);
   display: flex;
 
   overflow: hidden;

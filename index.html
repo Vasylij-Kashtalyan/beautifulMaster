@@ -16,10 +16,12 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/root.css" />
     <link rel="stylesheet" href="./css/container.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/letgo.css" />
     <link rel="stylesheet" href="./css/price.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
   </head>
   <body>
     <header class="header">
@@ -27,9 +29,16 @@
         <div class="navbar">
           <span class="logo">beautu<span class="logo-ful">f</span>ul</span>
           <ul class="navbar-list">
-            <li class="navbar-item">Головна</li>
-            <li class="navbar-item">Послуги</li>
-            <li class="navbar-item">Галерея</li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#home">Головна</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="navbar-link" href="#price">Послуги</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#gallery">Галерея</a>
+            </li>
           </ul>
 
           <button
@@ -100,7 +109,7 @@
         </div>
       </section>
       <!-- ----------------СЕКЦІЯ ЦІНОВІ ПЛАНИ----------- -->
-      <section class="price">
+      <section id="price" class="price">
         <div class="container">
           <h2 class="price-title">price plans</h2>
 
@@ -122,6 +131,34 @@
               <hr class="price-dashed" />
               <span class="price-name price-money">$10</span>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------СЕКЦІЯ МОЯ ГАЛЕРЕЯ----------- -->
+      <section class="gallery">
+        <div class="container">
+          <h2 class="gallery-title">my gallery</h2>
+          <div class="gallary-content">
+            <ul>
+              <li>
+                <img src="./img/before1.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./img/after1.jpg" alt="" />
+              </li>
+            </ul>
+            <ul>
+              <li><img src="./img/oly.jpg" alt="" /></li>
+            </ul>
+            <ul>
+              <li>
+                <img src="./img/before2.jpg" alt="" />
+              </li>
+
+              <li>
+                <img src="./img/after2.jpg" alt="" />
+              </li>
+            </ul>
           </div>
         </div>
       </section>

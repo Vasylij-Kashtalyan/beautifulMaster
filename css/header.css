@@ -1,6 +1,6 @@
 .header {
-  background-color: #f18367;
-  background: linear-gradient(135deg, #f19985 0%, #f18367 100%);
+  background-color: var(--color-primary);
+  background: var(--gradient);
 }
 
 .navbar {
@@ -23,7 +23,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 18px;
-  color: #fff;
+  color: var(--color-wite);
 }
 
 .logo-ful {
@@ -40,8 +40,8 @@
   display: none;
 }
 
-.navbar-item {
-  color: #fff;
+.navbar-link {
+  color: var(--color-wite);
   font-size: 20px;
   font-family: Raley;
   text-transform: uppercase;
@@ -55,19 +55,14 @@
   padding: 15px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .navbar-item:not(:first-child) {
   margin-left: 40px;
 }
 
-/* .navbar-item::after {
-  content: ">";
-  position: absolute;
-  rotate: 90deg;
-} */
-
-.navbar-item:hover {
-  color: #f19985;
-  background-color: #fff;
+.navbar-link:hover {
+  color: var(--color-sec);
+  background-color: var(--color-wite);
 }
 
 .social {
@@ -97,26 +92,25 @@
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #ffffff;
+  background-color: var(--color-wite);
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: #ffffff;
+  fill: var(--color-wite);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .social-link:hover &,
   .social-link:focus & {
-    fill: #f19985;
+    fill: var(--color-sec);
   }
 }
 
 .btn {
   width: 50px;
-  color: #fff;
-  background-color: indigo;
+  color: var(--color-wite);
 }
 
 .menu-btn {
@@ -124,7 +118,7 @@
     display: none;
   }
 
-  fill: #ffffff;
+  fill: var(--color-wite);
   display: inline-flex;
   padding: 0;
   border: none;
@@ -134,7 +128,7 @@
 
 .menu-btn:hover,
 .menu-btn:focus {
-  fill: #fff;
+  fill: var(--color-wite);
 }
 
 .menu-btn__close {

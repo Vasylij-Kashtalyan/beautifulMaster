@@ -10,14 +10,14 @@
   letter-spacing: 1.5px;
   font-size: 70px;
   margin-bottom: 30px;
-  color: #414040;
-  border-bottom: 3px solid #f18367;
+  color: var(--color-dark);
+  border-bottom: 3px solid var(--color-primary);
 }
 
 .price-content {
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  background-color: #fff;
+  background-color: var(--color-wite);
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 15px;
@@ -29,11 +29,10 @@
   height: 1px;
   width: 65%;
   margin: 13px 10px 0;
-  background: #bfbfbf;
   background: repeating-linear-gradient(
     90deg,
-    #000,
-    #000 6px,
+    var(--color-grey),
+    var(--color-grey) 6px,
     transparent 6px,
     transparent 12px
   );
@@ -54,9 +53,9 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color: #999999;
+  color: var(--color-grey2);
 }
 .price-money {
-  color: #f18367;
+  color: var(--color-primary);
   font-size: 25px;
 }

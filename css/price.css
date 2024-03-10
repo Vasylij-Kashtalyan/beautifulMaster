@@ -1,8 +1,27 @@
 .price {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.price-title {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 70px;
+  margin-bottom: 30px;
+  color: #414040;
+  border-bottom: 3px solid #f18367;
+}
+
+.price-content {
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   background-color: #fff;
-  padding: 40px 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .price-dashed {
@@ -18,4 +37,26 @@
     transparent 6px,
     transparent 12px
   );
+}
+
+.price-plan {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.price-plan:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.price-name {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #999999;
+}
+.price-money {
+  color: #f18367;
+  font-size: 25px;
 }

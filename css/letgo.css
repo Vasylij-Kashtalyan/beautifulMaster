@@ -1,4 +1,7 @@
 .letgo {
+  @media screen and (max-width: 480px) {
+    background-position: top;
+  }
   background-image: url("../img/woman.jpg");
 
   background-repeat: no-repeat;

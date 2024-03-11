@@ -1,16 +1,45 @@
 .gallery {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .gallery-title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 70px;
   letter-spacing: 1.5px;
+  margin-bottom: 60px;
+
   text-transform: uppercase;
   color: var(--color-dark);
   border-bottom: 3px solid var(--color-primary);
 }
+
 .gallary-content {
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
   display: flex;
+  align-items: center;
+}
+
+.oly {
+  @media screen and (max-width: 768px) {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+
+.gallary-list:not(:first-child) {
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }
+  margin-left: 35px;
+}
+.gallary-item:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.gallary-img {
+  border-radius: 15px;
+  border-radius: 70px 0;
 }

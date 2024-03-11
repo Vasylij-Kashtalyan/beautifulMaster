@@ -61,7 +61,7 @@
 }
 
 .navbar-link:hover {
-  color: var(--color-sec);
+  color: var(--color-brow);
   background-color: var(--color-wite);
 }
 
@@ -104,7 +104,7 @@
 
   .social-link:hover &,
   .social-link:focus & {
-    fill: var(--color-sec);
+    fill: var(--color-brow);
   }
 }
 

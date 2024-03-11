@@ -1,4 +1,8 @@
 .price {
+  @media screen and (max-width: 768px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   padding-top: 150px;
   padding-bottom: 150px;
   background-color: var(--color-wite2);
@@ -54,6 +58,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
+  letter-spacing: 1px;
   color: var(--color-grey2);
 }
 .price-money {

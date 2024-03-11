@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/gallery.css" />
     <link rel="stylesheet" href="./css/root.css" />
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
     <header class="header">
@@ -109,7 +110,7 @@
         </div>
       </section>
       <!-- ----------------СЕКЦІЯ МОЯ ГАЛЕРЕЯ----------- -->
-      <section class="gallery">
+      <section id="gallery" class="gallery">
         <div class="container">
           <h2 class="gallery-title">my gallery</h2>
           <div class="gallary-content">
@@ -165,6 +166,92 @@
           </div>
         </div>
       </section>
+      <!-- --------------ФУУТЕР----------------------- -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div>
+              <span class="logo footer-logo"
+                >beautu<span class="logo-ful">f</span>ul</span
+              >
+              <address class="address">
+                <p class="footer-address">адрес</p>
+                <p class="footer-address-two">Україна, Житомир</p>
+              </address>
+            </div>
+
+            <div class="footer-contact">
+              <h3 class="footer-contact-title">Contact</h3>
+              <div class="contact">
+                <div class="contact_box">
+                  <h4 class="contact-text">Follow</h4>
+                  <ul class="social footer-social">
+                    <li class="social-item">
+                      <a href="" class="social-link">
+                        <svg class="social-icon" width="20">
+                          <use href="./img/icons.svg.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+
+                    <li class="social-item">
+                      <a href="" class="social-link">
+                        <svg class="social-icon" width="20">
+                          <use href="./img/icons.svg.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+
+                    <li class="social-item">
+                      <a href="" class="social-link">
+                        <svg class="social-icon" width="20">
+                          <use href="./img/icons.svg.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+
+                    <li class="social-item">
+                      <a href="" class="social-link">
+                        <svg class="social-icon" width="20">
+                          <use href="./img/icons.svg.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="contact_box">
+                  <h4 class="contact-text contact-text__margin">Phone</h4>
+
+                  <ul class="contact-list">
+                    <li class="contact-item">
+                      <a class="contact-link" href="tel:+380961111111">
+                        <svg class="contact-icon" width="10" height="16">
+                          <use href="./img/icons.svg.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="contact_box">
+                  <h4 class="contact-text contact-text__margin">Email</h4>
+                  <ul class="contact-list">
+                    <li class="contact-item">
+                      <a class="contact-link" href="mailto:info@devstudio.com">
+                        <svg class="contact-icon" width="16" height="12">
+                          <use href="./img/icons.svg.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
     <script src="./js/changeLetGo.js"></script>
     <script src="./js/mobil.js"></script>

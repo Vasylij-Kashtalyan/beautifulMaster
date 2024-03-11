@@ -1,4 +1,8 @@
 .footer {
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   padding-top: 120px;
   padding-bottom: 120px;
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
@@ -78,6 +82,14 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.contact_box {
+  @media screen and (min-width: 1199px) {
+    width: 33.33333333%;
+  }
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .contact_box:not(:last-child) {

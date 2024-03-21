@@ -1,5 +1,25 @@
 {
-  "dependencies": {
-    "autoprefixer": "^10.4.19"
-  }
+  "name": "beautifulmaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp --tasks, -T  tasks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasylij-Kashtalyan/beautifulMaster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasylij-Kashtalyan/beautifulMaster/issues"
+  },
+  "homepage": "https://github.com/Vasylij-Kashtalyan/beautifulMaster#readme",
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
 }

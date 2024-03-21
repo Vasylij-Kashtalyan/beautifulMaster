@@ -6,6 +6,7 @@
   padding-top: 120px;
   padding-bottom: 120px;
   border-bottom: 30px solid var(--color-primary);
+  -webkit-box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -16,12 +17,25 @@
 
 .footer-content {
   @media screen and (max-width: 1199px) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
   align-items: baseline;
 }
 
@@ -61,6 +75,7 @@
   padding: 50px;
   text-align: center;
   border-radius: 80px 0px 69px;
+  -webkit-box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   background-color: var(--color-primary);
   background: var(--gradient);
@@ -77,11 +92,20 @@
 
 .contact {
   @media screen and (max-width: 1199px) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
 }
@@ -116,11 +140,17 @@
 
 .contact-list {
   @media screen and (min-width: 1200px) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
   margin-left: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -132,9 +162,17 @@
   letter-spacing: 0.02em;
 
   color: var(--color-wite);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
@@ -143,10 +181,20 @@
 }
 
 .contact-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-right: 10px;
+
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  -o-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--color-wite);
@@ -159,8 +207,14 @@
 
 .footer-social {
   @media screen and (max-width: 1199px) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
+
+  -webkit-box-pack: center;
+
+  -ms-flex-pack: center;
 
   justify-content: center;
 }

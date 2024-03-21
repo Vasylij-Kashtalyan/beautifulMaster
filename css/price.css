@@ -20,6 +20,7 @@
 }
 
 .price-content {
+  -webkit-box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   background-color: var(--color-wite);
@@ -34,6 +35,13 @@
   height: 1px;
   width: 65%;
   margin: 13px 10px 0;
+  background: -o-repeating-linear-gradient(
+    left,
+    var(--color-grey),
+    var(--color-grey) 6px,
+    transparent 6px,
+    transparent 12px
+  );
   background: repeating-linear-gradient(
     90deg,
     var(--color-grey),
@@ -44,7 +52,11 @@
 }
 
 .price-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 

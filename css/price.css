@@ -34,7 +34,8 @@
   border: none;
   height: 1px;
   width: 65%;
-  margin: 13px 10px 0;
+  margin: 12px 10px 0;
+
   background: -o-repeating-linear-gradient(
     left,
     var(--color-grey),

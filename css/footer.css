@@ -1,13 +1,27 @@
 .footer {
+  position: relative;
   @media screen and (max-width: 768px) {
     padding-top: 80px;
     padding-bottom: 80px;
   }
   padding-top: 120px;
   padding-bottom: 120px;
-  border-bottom: 30px solid var(--color-primary);
+  border-bottom: 50px solid var(--color-primary);
   -webkit-box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/fav.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -8%;
+  right: 49%;
+  width: 30px;
+  height: 30px;
 }
 
 .footer-logo {

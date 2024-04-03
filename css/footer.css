@@ -24,6 +24,19 @@
   height: 30px;
 }
 
+@media screen and (max-width: 1199px) {
+  .footer::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/fav.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -5%;
+    right: 49%;
+  }
+}
+
 .footer-logo {
   color: var(--color-primary);
   margin-bottom: 30px;
